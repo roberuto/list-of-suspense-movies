@@ -1,0 +1,42 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.settingsBasic {
+  display: flex;
+}
+
+.settingsBasic > div {
+  margin: 8px;
+}
+
+.settingsTimers {
+  display: grid;
+  grid-template-columns: repeat(5, 125px);
+  grid-gap: 10px;
+}
+
+.settingsTimers > div {
+  width: 100px;
+}
+
+.settingsTimers input {
+  width: 100px;
+}
+
+.label {
+  font-size: 10px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+input:disabled {
+  background: gray;
+}

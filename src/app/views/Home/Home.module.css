@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.header {
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 48px;
+}
+
+.header h2 {
+  font-size: 24px;
+}
+
+.home ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.home li {
+  padding-bottom: 24px;
+}
+
+.home a {
+  font-size: 24px;
+  color: #03a9f4;
+  text-decoration: none;
+}
+
+.home a:hover {
+  color: #00bcd4;
+  text-decoration: none;
+}
